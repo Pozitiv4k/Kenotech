@@ -1,0 +1,133 @@
+      * {
+  box-sizing: border-box;
+}
+      .cont{ 
+        position:relative;
+        min-height:100%;
+        height:auto !important;
+        height:100%;
+        top: 50px;
+      }
+      .social a{
+display: inline-block;
+width: 94px;
+height: 94px;
+line-height: 94px;
+text-align: center;
+border-radius: 50%;
+font-size: 60px;
+}
+.header{
+  min-height: 100vh;
+  width: 100%;
+  background-image: url(imagini/imgb.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.text-box{
+  width: 90%;
+  color: rgb(178, 235, 21);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align:right;
+}
+.text-box-h1{
+  font-size: 82px;
+}
+.text-box p{
+  margin: 10px 0 40px;
+  font-size: 24px;
+  color: rgb(178, 235, 21);
+}
+.btn{
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(178, 235, 21);
+  border: 1px solid rgb(178, 235, 21);
+  padding: 12px 34px;
+  font-size: 13px;
+  background: transparent;
+  position: relative;
+  cursor: pointer;
+}
+.produse{
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 50px;
+}
+h1{
+  font-size: 36px;
+  font-weight: 600;
+}
+p{
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.rol{
+  margin-top: 5%;
+  display:flex;
+  justify-content: space-between;
+}
+.roc{
+  margin-top: 30px;
+  margin-right: auto;
+  background: #286b28b2;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  margin-top: 5%;
+  }
+
+.co{
+  flex-basis: 31%;
+  background: #fff3f3;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  margin-top: 5%;
+}
+h3{
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.co:hover{
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+.col:hover{
+  box-shadow: 0 0 20px 0px rgba(223, 5, 5, 0.596);
+}
+.fixed-bg.bg-2 {
+  background-image: url("imagini/paralax.jpg");
+  /*reset height to auto if you want the content to determine the height. just use padding though.*/
+  height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.loc{
+  height: 20px;
+  width: 20px;
+  color: red;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .loc, .fixed-bg.bg-2, .col:hover,.co,.roc,.rol,.produse,.cont,
+    .open-button,
+.chat-popup ,
+.form-container ,
+.header,
+.text-box,
+.text-box-h1,
+.text-box{
+    width: 100%;
+  }
+}
